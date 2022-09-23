@@ -10,7 +10,7 @@ pipeline{
         }
 // here the actual automation is ran.
         stage("Ru Automated Tests"){
-            pararell{
+            parallel{
                 stage("CI Machine #1") {
                     steps {
                         bat "yarn cypress run --parallel --key=e4d5b964-9cb5-46d6-bbc4-60f7f295689c --ci-build-id-3 --group rashila_parallelrun"
