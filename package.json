@@ -1,0 +1,9 @@
+{
+  "name": "jenkins_pipeline_session",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^10.8.0"
+  }
+}
