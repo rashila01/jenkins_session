@@ -42,8 +42,9 @@ pipeline{
     }
 }
 
-//steps{
-                // echo "Basic setup Start"
-                // bat "yarn install"
-                // echo "Basic setup completed"
-            // }
+post{
+    always{
+        echo "report generation completed"
+        echo "Remove unnecessary files"
+    }
+}
